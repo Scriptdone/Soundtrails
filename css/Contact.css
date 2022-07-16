@@ -1,0 +1,21 @@
+.form-data input,
+.form-data textarea {
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.form-data input:focus,
+.form-data textarea:focus {
+  outline: none;
+}
+.form-data input::placeholder {
+  font-size: 15px;
+  font-family: var(--font-ibm);
+}
+
+.form-data .submit {
+  background: var(--golden);
+  color: #fff;
+}
