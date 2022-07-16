@@ -1,0 +1,21 @@
+.nav-padding {
+  padding-top: 50px;
+}
+
+.navbar-global {
+  border-bottom: 1px solid var(--white);
+}
+
+.navbar-global .nav-item {
+  margin: 0 30px;
+}
+
+.navbar-global .nav-item .nav-link {
+  color: #fff;
+  font-size: var(--psm);
+}
+
+.icons i {
+  color: var(--white);
+  margin: 0 20px;
+}

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --golden: #da9c65;
+  --psm: 1.0625rem;
+  --font-31: 1.8rem;
+  --font-52: 3rem;
+  --heading1: 5.7rem;
+  --font-ibm: "IBM Plex Sans Thai Looped", sans-serif;
+  --font-dancing: "Dancing Script", cursive;
+  --font-work-sans: "Work Sans', sans-serif";
+}
+
+body {
+  background: #000;
+  font-family: var(--font-ibm);
+}
+
+.sidepadding {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.vertical-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.side-margin {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.btn1 {
+  padding: 10px 50px;
+  background: var(--golden);
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: var(--psm);
+}
+
+.fontibm {
+  font-family: var(--font-ibm);
+}
+
+.font-dancing {
+  font-family: var(--font-dancing);
+}
+
+.font-work-sans {
+  font-family: var(--font-work-sans);
+}
+
+.font-size-31 {
+  font-size: var(--font-31);
+}
+
+.font-size-57 {
+  font-size: var(--font-52);
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+.font-size-25 {
+  font-size: 25px;
+}
+.font-family-sans {
+  font-family: var(--font-work-sans);
+}
+
+/* common */
+.rating {
+  padding: 0 30px;
+}
+.rating i {
+  color: #ffb503;
+  margin: 0 2px;
+}
+
+.global-btn {
+  margin: 0 30px;
+
+  border: none;
+  background: var(--golden);
+  color: #fff;
+  border-radius: 20px;
+  font-family: var(--font-work-sans);
+  font-weight: 500;
+  transition: 0.3s ease;
+  outline: none;
+}
