@@ -1,70 +1,70 @@
 .home-hero {
-  background: url("../assest/img/homehero.png");
-  background-position: center;
-  background-size: cover;
+    background: url("../assest/img/homehero.png");
+    background-position: center;
+    background-size: cover;
 }
 
 .hero h3 {
-  font-size: var(--heading1);
+    font-size: var(--heading1);
 }
 
 .hero p {
-  font-size: var(--psm);
+    font-size: var(--psm);
 }
 
 .hero_bottom-padding {
-  padding-bottom: 150px;
+    padding-bottom: 150px;
 }
 
 .tab-btn {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 .tab-btn button {
-  margin: 0 30px;
-  padding: 10px 40px;
-  border: none;
-  background: #fff;
-  border-radius: 20px;
-  font-family: var(--font-work-sans);
-  font-weight: 500;
-  transition: 0.3s ease;
-  outline: none;
+    margin: 0 30px;
+    padding: 10px 40px;
+    border: none;
+    background: #fff;
+    border-radius: 20px;
+    font-family: var(--font-work-sans);
+    font-weight: 500;
+    transition: 0.3s ease;
+    outline: none;
 }
 
 .tab-btn .active,
 .tab-btn button:hover {
-  background: var(--golden);
-  color: #fff;
+    background: var(--golden);
+    color: #fff;
 }
 
 .top-less {
-  margin-top: -200px;
+    margin-top: -200px;
 }
 
 .know-us {
-  background-color: #151515;
-  padding: 20px 40px;
-  color: #fff;
+    background-color: #151515;
+    padding: 20px 40px;
+    color: #fff;
 }
 
 .girl-img {
-  margin-top: -200px;
+    margin-top: -200px;
 }
 
 .testi-img {
-  margin-top: -76px;
+    margin-top: -76px;
 }
 
 .testi-des {
-  color: var(--golden);
-  text-transform: capitalize;
-  font-weight: 600;
+    color: var(--golden);
+    text-transform: capitalize;
+    font-weight: 600;
 }
 
 .newsleeter-bar {
-  width: 50%;
-  background: #fff;
-  padding: 8.5px 20px;
-  border: none;
-  border-radius-le: 20;
+    width: 50%;
+    background: #fff;
+    padding: 8.5px 20px;
+    border: none;
+    border-radius-le: 20;
 }
