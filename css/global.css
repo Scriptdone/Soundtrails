@@ -97,3 +97,32 @@ body {
   transition: 0.3s ease;
   outline: none;
 }
+
+footer {
+  background: url("../assest/img/footer-bg\ 1.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+}
+.social i {
+  margin: 0 20px;
+  font-size: 1.5rem;
+}
+footer ul {
+  margin-top: 2rem;
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+  margin: 20px 0;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+footer ul li i {
+  margin: 0 10px;
+}
