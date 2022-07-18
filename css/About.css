@@ -1,6 +1,6 @@
 .hero-bullets li {
   list-style: none;
-  font-size: 25px;
+  font-size: 22px;
   margin: 20px 0;
 }
 .hero-bullets li i {
@@ -59,4 +59,18 @@
 
 .contact-about span {
   margin: 10px 0;
+}
+.cardss {
+  border: 1px solid var(--golden);
+  padding: 10px 0;
+}
+
+@media (max-width: 550px) {
+  .hero-bullets li {
+    font-size: 18px;
+  }
+  .cardss {
+    margin: 20px 0;
+    padding: 10px;
+  }
 }

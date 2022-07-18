@@ -19,3 +19,15 @@
   background: var(--golden);
   color: #fff;
 }
+
+.side-boder {
+  border-right: 1px solid var(--golden);
+}
+
+@media (max-width: 768px) {
+  .side-boder {
+    border: 1px solid var(--golden);
+    padding: 20px;
+    margin-top: 20px;
+  }
+}

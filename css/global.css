@@ -96,6 +96,13 @@ body {
   margin: 0 2px;
 }
 
+.slider {
+  display: flex;
+}
+.slider .slides {
+  display: flex;
+  justify-content: center;
+}
 .global-btn {
   margin: 0 30px;
 
@@ -107,10 +114,6 @@ body {
   font-weight: 500;
   transition: 0.3s ease;
   outline: none;
-}
-
-.side-boder {
-  border-right: 1px solid var(--golden);
 }
 
 footer {
@@ -145,7 +148,7 @@ footer ul li i {
 main {
   background: url("../assest/img/bg222.png");
 
-  background-size: contain;
+  background-size: cover;
 
   background-repeat: no-repeat;
 }
@@ -161,8 +164,107 @@ main {
   font-weight: 700;
 }
 
+.products img {
+  height: 300px;
+}
+
 .bg-top {
   background-image: url(../assest/img/product-bg.png);
   background-position: center;
   background-size: cover;
+}
+
+@media (max-width: 1440px) {
+  html {
+  }
+  .side-margin {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .sidepadding {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .products-list {
+    margin-top: 20px;
+  }
+  .vertical-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+  }
+  .side-margin {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .sidepadding {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .vertical-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 94%;
+  }
+  .side-margin {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .sidepadding {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .fotter-margin {
+    margin: 20px 0 !important;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 75%;
+  }
+  :root {
+    --heading1: 4.5 rem;
+  }
+  .side-margin {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .sidepadding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .vertical-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 75%;
+  }
+  .side-margin {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .sidepadding {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
